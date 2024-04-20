@@ -1,0 +1,147 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500; 1.600&display=swap');
+
+
+
+
+body {
+
+    margin: 0;
+    background-color: #fff;
+    height: 100vh;
+    display: grid;
+    grid-template-columns:  repeat(5, 1fr) ;
+    grid-template-rows:   repeat(3, 1fr 1fr);
+    grid-template-areas: "header header header header header" "aside main main main main";
+}
+
+
+
+
+.header {
+ grid-area: header;
+ border: 1px solid #ffffff;
+ background-color: #ffffff;
+ display: grid;
+    
+     
+}
+
+
+
+
+.search {
+    padding: 25px 600px;
+    background-color: white;
+    cursor: pointer;
+    display: inline-flex;
+    right: auto;
+     
+}
+
+
+    
+
+
+.menu{
+    position: fixed;
+    display: inline-flex;
+    gap: 25px;
+    padding: 35px 50px;
+   
+
+    font-size: 20px;
+    cursor: pointer;
+    
+}
+
+
+
+.caixa-login {
+ right: 60px;
+ position: fixed;
+ display: inline-flex;
+ cursor: pointer;
+ padding: 35px 45px;
+ gap: 25px;
+ align-items: center;
+ justify-content: center;
+}
+
+.add-videos {
+   width: 25px;
+   height: 25px;
+}
+
+.notificacao {
+    width: 25px;
+    height: 25px;
+ 
+}
+
+
+
+.aside {
+
+
+
+opacity: 0px;
+grid-area: aside ;
+
+
+
+
+}
+ .list  {
+    
+}
+
+
+.main {
+  background-color: #ffffff;
+  grid-area: main;
+  width: 100vh;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr) ;
+
+  
+ 
+
+
+
+  
+}
+
+
+
+.video-1, .video-2, .video-3, .video-4, .video-5, .video-6, .video-7, .video-8, .video-9, .video-10, .video-11, .video-12 {
+ justify-items: center;
+ align-items: center;
+ width: 100%;
+ cursor: pointer;
+ 
+ 
+ 
+
+}
+
+.Select-list {
+    border: none;
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    padding: 10px 45px;
+    gap: 1rem;
+    cursor: pointer;
+  
+
+}
+
+
+
+
+    
+
+
+
+
